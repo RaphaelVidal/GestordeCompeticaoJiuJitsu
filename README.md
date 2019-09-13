@@ -1,1 +1,1 @@
-# GestordeCompeticaoJiuJitsu
+# Gestor de Competicao JiuJitsu
