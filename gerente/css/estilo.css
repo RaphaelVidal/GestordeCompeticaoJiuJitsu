@@ -1,0 +1,105 @@
+*{margin:0px;
+padding:0px;
+}
+/* Utilizo essas Tags para centralizar do o conteúdo na página e remover os  espaços entre as DIV  */
+
+body {
+	font-family:Arial, Helvetica, sans-serif; /*Tipo da fonte*/
+	color:black; /* cor da fonte */
+	font-size:12px; /* tamanho da fonte */
+	background-color:#FFFFFF; /* cor do background */
+}
+/* Aqui se define a formatação da página toda costumo apenas formatar background, cor e tamanho da Font */
+
+.cabecalho{
+	width:100%;         /* Largura */
+	height:264px;     /* Altura */
+	margin:auto;     /* Margin deixa a div centralizada na página */
+	background-color: #0A5517;
+    background-image: radial-gradient(ellipse at center center , #19882C 1%, #025310 100%);
+}
+/* Aqui defino o Tamanho do topo do site  Logo Banner e Menu */
+
+.logo{
+	width:500px;
+	height:220px;
+	float:left;     /* Faz com que a DIV se ajuste sempre do lado esquerdo */
+}
+
+/* Float funciona da seguinte forma no caso o "left" ele ajusta os elementos do lado esquerdo, um ao lado do outro, quando não houver espaço suficiente para o elemento ele o joga pra baixo ainda ajustado a esquerda */
+
+banner { 
+    width:750px;
+	height:220px;
+	float:left;
+}
+
+.menu {
+	width:100%;
+	height:32px;
+	padding-top:10px; /* cobre um espaço no topo do elemento Obs: o menu tem 42px de altura quando insiro padding de qualquer lado, preciso retirar os Px de padding para manter o tamanho do menu.  Nesse exemplo seria 42px de height , então padding top    10px height = 32                  */
+	
+	background-color: #0A5517;
+    background-image: radial-gradient(ellipse at center center , #19882C 1%, #025310 100%); /* Inseri uma imagem de background no elemento */
+	background-repeat:no-repeat; /* Faz com que o Back ground não se repita */
+	float:right;
+}
+.menu a{  /*  Aqui editamos todos os "A" (links ) do menu, então .menu a = dentro de "menu" todos os "A" seguem a formatação */
+
+	text-decoration:none;  /* Tira o sublinhado do link */
+	font-size:16px;
+	padding-left:15px;
+	color:black;
+}
+
+/* Termina aqui o cabeçalho --------------------------------------------------------------------------------------------------------------------------------------- */
+
+/* conteúdo ( Meio do site site onde fica a maior parte da informação ) ------------------------------------------------------------------------------------- */
+
+.conteudo { 
+	width:100%;
+	height:600px;
+	background-color:#CCC;
+	color:#000;
+	margin:auto;
+}
+.conteudo h1{
+	color:#06C;
+	padding-left:15px;
+	padding-top:10px;
+}
+.conteudo p{
+	padding-left:15px;
+	padding-top:10px;
+	font-size:14px;
+}
+.texto{
+	width:100%;
+	height:auto; /* O height fica com o tamanho indeterminado, ira depender do conteudo que estiver dentro, se tratando de texto é bom utilizar height auto pois os textos podem variar de tamanho */
+	float:left;
+}
+.foto{
+	width:330px;
+	height:auto;
+	float:left;
+}
+
+.foto img{
+	padding:35px; /* as imagens dentro de foto terão um prenchimento de 15px de cada lado */
+}
+
+/* Termina aqui o conteúdo -------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.rodape{
+	width:100%;
+	height:28px;
+	
+	background-repeat:no-repeat;
+	padding-top:50px;
+	padding-left:9px;
+	margin:auto;
+   background-color: #0A5517;
+    background-image: radial-gradient(ellipse at center center , #19882C 1%, #025310 100%);
+
+}
+
